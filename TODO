@@ -1,0 +1,7 @@
+Change the name of the VPN connection to Lavabit
+Finish creating the new Lavabit design files - Eric
+Replace custom section of build.gradle file - Alex
+Audit/update the generated OpenVPN client to match the standalone OVPN files we've been testing
+Determine why DNS server settings aren't being pushed/used by the client
+Disable the Debian/CentOS test VPN nodes for production/release builds, but keep them for debug builds
+Write script that will connect to the 8 prod VPN nodes using OVPN files and verify NAT, routing etc - Alex
